@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Enlace cuentas 2001</Id>
+  <Titulo>Enlace cuentas 2001</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl/>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Enlace cuentas 2001
+--
+
+0.0.1  --  09/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>
