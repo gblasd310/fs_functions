@@ -50,17 +50,6 @@ BEGIN -- (c) 2011 Servicios de Informática Colegiada, S.A. de C.V.
   --PERFORM of_ofx_set('de_fecha','set='||of_fecha_dpm(f)::TEXT);
   --PERFORM of_ofx_set('a_fecha','set='||of_fecha_dum(f)::TEXT);
   PERFORM of_ofx_notice('popup','Recuerda guardar tus archivos como TXT delimitados por tabulaciones');
-  /* IF NOT EXISTS (SELECT * FROM auxiliares_ref_masivo) THEN
-    CREATE TABLE auxiliares_ref_masivo(
-      idsucaux,
-      idproducto,
-      idauxiliar,
-      idsucauxref,
-      idproductoref,
-      idauxiliarref,
-    );
-  END IF; */
-
   PERFORM of_ofx_set('bt_aceptar','sensitive=FALSE');
   PERFORM of_ofx_set('bt_imprimir','sensitive=FALSE');
 
@@ -75,11 +64,12 @@ CREATE TYPE ofx_enlace_cuentas_2001_masivo AS (
   idauxiliar      INTEGER,
   idsucauxref     INTEGER,
   idproductoref   INTEGER,
-  idauxiliarref   INTEGER
+  idauxiliarref   INTEGER,
+  status          TEXT
 );
 
 CREATE OR REPLACE FUNCTION enlace_cuentas_2001 ()
-  RETURNS VOID AS $$
+  RETURNS SETOF ofx_enlace_cuentas_2001_masivo AS $$
 DECLARE
   data_report     ofx_enlace_cuentas_2001_masivo%ROWTYPE;
   rlin            RECORD;
@@ -105,52 +95,82 @@ BEGIN
     IF (optionQuery) THEN
       FOR rlin IN SELECT * FROM of_archivo_txt_read(fname) AS linea LOOP
       _arr := string_to_array(replace(rlin.linea,E'\t',','),',');
-      idsucaux1       := _arr[1]::INTEGER;
-      idproducto1     := _arr[2]::INTEGER;
-      idauxiliar1     := _arr[3]::INTEGER;
-      idsucauxref1    := _arr[4]::INTEGER;
-      idproductoref1  := _arr[5]::INTEGER;
-      idauxiliarref1  := _arr[6]::INTEGER;
-      IF EXISTS (SELECT * FROM auxiliares_ref WHERE (idsucaux, idproducto, idauxiliar, idsucauxref, idproductoref, idauxiliarref) = (idsucaux1, idproducto1, idauxiliar1, idsucauxref1, idproductoref1, idauxiliarref1)) THEN
+      data_report.idsucaux := _arr[1]::INTEGER;
+      data_report.idproducto := _arr[2]::INTEGER;
+      data_report.idauxiliar := _arr[3]::INTEGER;
+      data_report.idsucauxref := _arr[4]::INTEGER;
+      data_report.idproductoref := _arr[5]::INTEGER;
+      data_report.idauxiliarref := _arr[6]::INTEGER; 
+      IF EXISTS (SELECT * FROM auxiliares_ref WHERE 
+        (idsucaux, idproducto, idauxiliar, idsucauxref, idproductoref, idauxiliarref) = 
+        (data_report.idsucaux, data_report.idproducto, data_report.idauxiliar, data_report.idsucauxref, data_report.idproductoref, data_report.idauxiliarref)) THEN
         --INSERT INTO auxiliares_ref(idsucaux,idproducto,idauxiliar,tiporef,idsucauxref,idproductoref,idauxiliarref,montoref) VALUES (idsucaux1,idproducto1,idauxiliar1,0,idsucauxref1,idproductoref1,idauxiliarref1,0);
-        DELETE FROM auxiliares_ref WHERE (idsucaux, idproducto, idauxiliar, idsucauxref, idproducto, idauxiliarref) = (idsucaux1, idproducto1, idauxiliar1, idsucauxref1, idproducto1, idauxiliarref1); 
-        PERFORM of_ofx_notice('info','Cuenta desvinculada ' |+ idsucaux1::TEXT |+ '-' |+ idproducto1::TEXT |+ '-' |+ idauxiliar1::TEXT |+ ' >>> ' |+ idsucauxref1::TEXT |+ '-' |+ idproductoref1::TEXT |+ '-' |+ idauxiliarref1::TEXT);
+        --DELETE FROM auxiliares_ref WHERE (idsucaux, idproducto, idauxiliar, idsucauxref, idproducto, idauxiliarref) = (idsucaux1, idproducto1, idauxiliar1, idsucauxref1, idproducto1, idauxiliarref1); 
+         DELETE FROM auxiliares_ref WHERE (
+            idsucaux,
+            idproducto,
+            idauxiliar,
+            tiporef,
+            idsucauxref,
+            idproductoref,
+            idauxiliarref,
+            montoref
+            ) = (
+            data_report.idsucaux,
+            data_report.idproducto,
+            data_report.idauxiliar,
+            0,
+            data_report.idsucauxref,
+            data_report.idproductoref,
+            data_report.idauxiliarref,
+            0);
+        PERFORM of_ofx_notice('info','Cuenta desvinculada ' |+ data_report.idsucaux::TEXT |+ '-' |+ data_report.idproducto::TEXT |+ '-' |+ data_report.idauxiliar::TEXT |+ ' >>> ' |+ data_report.idsucauxref::TEXT |+ '-' |+ data_report.idproductoref::TEXT |+ '-' |+ data_report.idauxiliarref::TEXT);
+        data_report.status := 'CUENTA DESVINCULADA';
       ELSE
-        PERFORM of_ofx_notice('info','VINCULO (' |+ idsucaux1::TEXT |+ '-' |+ idproducto1::TEXT |+ '-' |+ idauxiliar1::TEXT |+ ') -> (' |+ idsucauxref1::TEXT |+ '-' |+ idproductoref1::TEXT |+ '-' |+ idauxiliarref1::TEXT |+ ') NO EXISTENTE');
+        PERFORM of_ofx_notice('info','VINCULO (' |+ data_report.idsucaux::TEXT |+ '-' |+ data_report.idproducto::TEXT |+ '-' |+ data_report.idauxiliar::TEXT |+ ') -> (' |+ data_report.idsucauxref::TEXT |+ '-' |+ data_report.idproductoref::TEXT |+ '-' |+ data_report.idauxiliarref::TEXT |+ ') NO EXISTENTE');
+        data_report.status := 'NO EXISTE VINCULO';
       END IF;
-    END LOOP;
+      RETURN NEXT data_report;
+      END LOOP;
     ELSE
       FOR rlin IN SELECT * FROM of_archivo_txt_read(fname) AS linea LOOP
-      _arr := string_to_array(replace(rlin.linea,E'\t',','),',');
-      idsucaux1       := _arr[1]::INTEGER;
-      idproducto1     := _arr[2]::INTEGER;
-      idauxiliar1     := _arr[3]::INTEGER;
-      idsucauxref1    := _arr[4]::INTEGER;
-      idproductoref1  := _arr[5]::INTEGER;
-      idauxiliarref1  := _arr[6]::INTEGER;
-      IF NOT EXISTS (SELECT * FROM auxiliares_ref WHERE (idsucaux, idproducto, idauxiliar, idsucauxref, idproductoref, idauxiliarref) = (idsucaux1, idproducto1, idauxiliar1, idsucauxref1, idproductoref1, idauxiliarref1)) THEN
-        --IF NOT EXISTS (SELECT * FROM auxiliares_ref WHERE (idsucaux,idproducto,idauxiliar)=(idsucaux1,idproducto1,idauxiliar1))THEN
-          --IF NOT EXISTS (SELECT * FROM auxiliares_ref WHERE (idsucauxref,idproductoref,idauxiliarref)=(idsucauxref1,idproductoref1,idauxiliarref1)) THEN
-            INSERT INTO auxiliares_ref(idsucaux,idproducto,idauxiliar,tiporef,idsucauxref,idproductoref,idauxiliarref,montoref) VALUES (idsucaux1,idproducto1,idauxiliar1,0,idsucauxref1,idproductoref1,idauxiliarref1,0);
-            PERFORM of_ofx_notice('info','Cuenta vinculada ' |+ idsucaux1::TEXT |+ '-' |+ idproducto1::TEXT |+ '-' |+ idauxiliar1::TEXT |+ ' >>> ' |+ idsucauxref1::TEXT |+ '-' |+ idproductoref1::TEXT |+ '-' |+ idauxiliarref1::TEXT);
-            data_report.idsucaux := idsucaux1;
-            data_report.idproducto := idproducto1;
-            data_report.idauxiliar := idauxiliar1;
-            data_report.idsucauxref := idsucauxref1;
-            data_report.idproductoref := idproductoref1;
-            data_report.idauxiliarref := idauxiliarref1;          
-          --ELSE
-          --  PERFORM of_ofx_notice('info', idsucauxref1::TEXT |+ '-' |+ idproductoref1::TEXT |+ '-' |+ idauxiliarref1::TEXT |+ ' YA SE ENCUENTRA ENLAZADA A UNA CUENTA');
-          --END IF;
-        --ELSE
-          --PERFORM of_ofx_notice('info', idsucaux1::TEXT |+ '-' |+ idproducto1::TEXT |+ '-' |+ idauxiliar1::TEXT |+ ' YA SE ENCUENTRA ENLAZADA A UNA CUENTA');
-        --END IF;
-      ELSE
-        --DELETE FROM auxiliares_ref WHERE (idsucaux, idproducto, idauxiliar, idsucauxref, idproducto, idauxiliarref) = (idsucaux1, idproducto1, idauxiliar1, idsucauxref1, idproducto1, idauxiliarref1); 
-        PERFORM of_ofx_notice('info','VINCULO (' |+ idsucaux1::TEXT |+ '-' |+ idproducto1::TEXT |+ '-' |+ idauxiliar1::TEXT |+ ') -> (' |+ idsucauxref1::TEXT |+ '-' |+ idproductoref1::TEXT |+ '-' |+ idauxiliarref1::TEXT |+ ') EXISTENTE');
-      END IF;
-    END LOOP;
-
+        _arr := string_to_array(replace(rlin.linea,E'\t',','),',');    
+        data_report.idsucaux := _arr[1]::INTEGER;
+        data_report.idproducto := _arr[2]::INTEGER;
+        data_report.idauxiliar := _arr[3]::INTEGER;
+        data_report.idsucauxref := _arr[4]::INTEGER;
+        data_report.idproductoref := _arr[5]::INTEGER;
+        data_report.idauxiliarref := _arr[6]::INTEGER; 
+        IF NOT EXISTS (
+          SELECT * FROM auxiliares_ref WHERE 
+            (idsucaux, idproducto, idauxiliar, idsucauxref, idproductoref, idauxiliarref) = 
+            (data_report.idsucaux, data_report.idproducto, data_report.idauxiliar, data_report.idsucauxref, data_report.idproductoref, data_report.idauxiliarref)) THEN
+            INSERT INTO auxiliares_ref(
+              idsucaux,
+              idproducto,
+              idauxiliar,
+              tiporef,
+              idsucauxref,
+              idproductoref,
+              idauxiliarref,
+              montoref
+              ) VALUES (
+              data_report.idsucaux,
+              data_report.idproducto,
+              data_report.idauxiliar,
+              0,
+              data_report.idsucauxref,
+              data_report.idproductoref,
+              data_report.idauxiliarref,
+              0);
+          PERFORM of_ofx_notice('info','Cuenta vinculada ' |+ data_report.idsucaux::TEXT |+ '-' |+ data_report.idproducto::TEXT |+ '-' |+ data_report.idauxiliar::TEXT |+ ' >>> ' |+ data_report.idsucauxref::TEXT |+ '-' |+ data_report.idproductoref::TEXT |+ '-' |+ data_report.idauxiliarref::TEXT);           
+          data_report.status := 'CUENTA VINCULADA';
+        ELSE
+          PERFORM of_ofx_notice('info','VINCULO (' |+ data_report.idsucaux::TEXT |+ '-' |+ data_report.idproducto::TEXT |+ '-' |+ data_report.idauxiliar::TEXT |+ ') -> (' |+ data_report.idsucauxref::TEXT |+ '-' |+ data_report.idproductoref::TEXT |+ '-' |+ data_report.idauxiliarref::TEXT |+ ') EXISTENTE');
+          data_report.status := 'YA EXISTE VINCULO';
+        END IF;
+        RETURN NEXT data_report;
+      END LOOP;
     END IF;
     
   END IF;
