@@ -68,6 +68,15 @@ BEGIN -- (c) 2011 Servicios de Informática Colegiada, S.A. de C.V.
 END;$$
 LANGUAGE plpgsql;
 
+SELECT of_db_drop_type('ofx_enlace_cuentas_2001_masivo','CASCADE');
+CREATE TYPE ofx_enlace_cuentas_2001_masivo AS (
+  idsucaux        INTEGER,
+  idproducto      INTEGER,
+  idauxiliar      INTEGER,
+  idsucauxref     INTEGER,
+  idproductoref   INTEGER,
+  idauxiliarref   INTEGER
+);
 
 CREATE OR REPLACE FUNCTION enlace_cuentas_2001 ()
   RETURNS VOID AS $$
@@ -149,18 +158,6 @@ BEGIN
   RETURN;
 END;
 $$ LANGUAGE plpgsql;
-
-
-SELECT of_db_drop_type('ofx_enlace_cuentas_2001_masivo','CASCADE');
-CREATE TYPE ofx_enlace_cuentas_2001_masivo AS (
-  idsucaux        INTEGER,
-  idproducto      INTEGER,
-  idauxiliar      INTEGER,
-  idsucauxref     INTEGER,
-  idproductoref   INTEGER,
-  idauxiliarref   INTEGER
-);
-
 
 CREATE OR REPLACE FUNCTION ofx_enlace_cuentas_2001_masivo ()
   RETURNS SETOF ofx_enlace_cuentas_2001_masivo AS $$
