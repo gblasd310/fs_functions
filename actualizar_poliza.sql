@@ -7,10 +7,25 @@ CREATE OR REPLACE FUNCTION actualizar_poliza(
 ) RETURNS VOID AS 
 $$
 
-begin
-  update polizas
-     set concepto=econcepto
-   where (idsucpol, periodo, tipopol, idpoliza) = (eidsucpol, eperiodo, etipopol, eidpoliza);
-end;
+BEGIN
+
+  IF EXISTS 
+  (
+    SELECT concepto FROM polizas WHERE 
+    (idsucpol, periodo, tipopol, idpoliza) = 
+    (eidsucpol, eperiodo, etipopol, eidpoliza)
+  ) THEN
+
+    UPDATE 
+      polizas 
+    SET 
+      concepto = econcepto
+    WHERE 
+      (idsucpol, periodo, tipopol, idpoliza) = 
+      (eidsucpol, eperiodo, etipopol, eidpoliza);
+  
+  END IF;
+  
+END;
 
 $$ LANGUAGE plpgsql;

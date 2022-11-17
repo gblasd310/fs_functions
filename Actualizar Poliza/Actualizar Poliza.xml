@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Actualizar Poliza</Id>
+  <Titulo>Actualizar Poliza</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>actualizar_poliza</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Actualizar Poliza
+--
+
+0.0.1  --  08/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT actualizar_poliza($eidsucpol, $eperiodo, $etipopol, $eidpoliza, $econcepto)</Query>
+  <Variables>
+    <Variable id="econcepto" params="type=text"/>
+    <Variable id="eidpoliza" params="type=integer"/>
+    <Variable id="eidsucpol" params="type=integer"/>
+    <Variable id="eperiodo" params="type=integer"/>
+    <Variable id="etipopol" params="type=integer"/>
+  </Variables>
+</OpenFIN_VSR>

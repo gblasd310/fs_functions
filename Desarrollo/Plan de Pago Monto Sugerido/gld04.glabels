@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de p&#xE1;gina completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-box x="0.732678in" y="6.38956in" w="7.23984in" h="0.359867in" line_width="0.0138889in" line_color="0xe6e6e6ff" fill_color="0xe6e6e6ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="0.731299in" y="5.27579in" w="7.25732in" h="0.319882in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="0.732148in" y="3.61839in" w="7.23984in" h="0.359867in" line_width="0.0138889in" line_color="0xe6e6e6ff" fill_color="0xe6e6e6ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="0.732678in" y="2.16734in" w="7.23984in" h="0.359867in" line_width="0.0138889in" line_color="0xe6e6e6ff" fill_color="0xe6e6e6ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="0.731941in" y="2.94705in" w="7.23984in" h="0.359867in" line_width="0.0138889in" line_color="0xe6e6e6ff" fill_color="0xe6e6e6ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="4.24852in" y="0.276657in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Regular" font_italic="False" line_spacing="1">NO. RECA: 13916-439-035811/02-01894-0522</Span>
+    </Object-text>
+    <Object-text x="3.862in" y="0.533228in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="12" font_weight="Bold" font_italic="False" line_spacing="1">ANEXO 1</Span>
+    </Object-text>
+    <Object-text x="0.696501in" y="1.17632in" w="1.6442in" h="0.215195in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Ruta:</Span>
+    </Object-text>
+    <Object-text x="2.44733in" y="1.16577in" w="5.52796in" h="0.181867in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$ruta</Span>
+    </Object-text>
+    <Object-text x="0.699834in" y="1.3496in" w="1.58089in" h="0.485093in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Datos de la Cuenta de Dep&#xF3;sito (Cuenta del ACREDITADO):</Span>
+    </Object-text>
+    <Object-text x="2.41419in" y="1.56845in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$cuenta_2001</Span>
+    </Object-text>
+    <Object-text x="4.78909in" y="1.44885in" w="2.99223in" h="0.295167in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Autorizo que el Monto adicional por Lt. de Gas Consumido ascienda a:  </Span>
+    </Object-text>
+    <Object-text x="6.3159in" y="1.63615in" w="1.78787in" h="0.565063in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">  </Span>
+    </Object-text>
+    <Object-text x="0.747044in" y="9.86963in" w="1.56756in" h="0.231853in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Nombre y Lugar :</Span>
+    </Object-text>
+    <Object-text x="3.21502in" y="6.47263in" w="0.625in" h="0.25692in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Fecha:</Span>
+    </Object-text>
+    <Object-text x="5.42375in" y="6.46652in" w="0.725546in" h="0.226931in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Firma:</Span>
+    </Object-text>
+    <Object-text x="3.50325in" y="9.88531in" w="0.625in" h="0.331816in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Fecha:</Span>
+    </Object-text>
+    <Object-text x="5.54749in" y="9.87698in" w="0.625in" h="0.331816in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Firma:</Span>
+    </Object-text>
+    <Object-box x="0.720974in" y="0.76175in" w="7.27764in" h="0.37986in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="3.26037in" y="0.791738in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0xffffffff" font_family="Sans" font_size="10" font_weight="Bold" font_italic="False" line_spacing="1">SOLICITUD DE CR&#xC9;DITO</Span>
+    </Object-text>
+    <Object-text x="0.981207in" y="0.951679in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0xffffffff" font_family="Sans" font_size="10" font_weight="Bold" font_italic="False" line_spacing="1">(Informaci&#xF3;n confidencial, &#xFA;nicamente para ser utilizada para autorizaci&#xF3;n del cr&#xE9;dito)</Span>
+    </Object-text>
+    <Object-box x="0.731299in" y="1.83135in" w="7.25732in" h="0.319882in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.811in" y="1.92132in" w="3.66892in" h="0.152797in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0xffffffff" font_family="Sans" font_size="10" font_weight="Bold" font_italic="False" line_spacing="1">DATOS GENERALES DEL CLIENTE:</Span>
+    </Object-text>
+    <Object-text x="0.723158in" y="2.17708in" w="3.00703in" h="0.321816in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Nombre del solicitante<NL/>(Adjuntar copia identificaci&#xF3;n Oficial )</Span>
+    </Object-text>
+    <Object-text x="3.26037in" y="2.2412in" w="2.94891in" h="0.271021in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$nombre_completo</Span>
+    </Object-text>
+    <Object-box x="0.734455in" y="4.40251in" w="7.24917in" h="0.318836in" line_width="0.0138889in" line_color="0xe6e6e6ff" fill_color="0xe6e6e6ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.736103in" y="3.37608in" w="1.50759in" h="0.190744in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Correo Electr&#xF3;nico 1:</Span>
+    </Object-text>
+    <Object-text x="2.13762in" y="3.38828in" w="2.36229in" h="0.138889in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$correo</Span>
+    </Object-text>
+    <Object-text x="0.714722in" y="3.63178in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Pa&#xED;s de<NL/>Nacimiento:</Span>
+    </Object-text>
+    <Object-text x="1.54952in" y="3.65069in" w="1.43095in" h="0.229912in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$pais_nacimiento</Span>
+    </Object-text>
+    <Object-text x="3.0323in" y="3.66264in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Entidad Federativa <NL/>de Nacimiento:</Span>
+    </Object-text>
+    <Object-text x="4.30517in" y="3.65874in" w="1.6542in" h="0.32182in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$entidad_nacimiento</Span>
+    </Object-text>
+    <Object-text x="5.85852in" y="3.65151in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Nacionalidad:</Span>
+    </Object-text>
+    <Object-text x="6.80154in" y="3.66264in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$nacionalidad</Span>
+    </Object-text>
+    <Object-text x="0.724402in" y="4.03721in" w="1.41638in" h="0.453264in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Fecha de Nacimiento<NL/>(DD/MM/AAAA)</Span>
+    </Object-text>
+    <Object-text x="2.18459in" y="4.02489in" w="2.12539in" h="0.209476in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$fecha_nacimiento_texto</Span>
+    </Object-text>
+    <Object-text x="4.32461in" y="4.03646in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Edad (A&#xF1;os):</Span>
+    </Object-text>
+    <Object-text x="5.21582in" y="4.03154in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$edad</Span>
+    </Object-text>
+    <Object-text x="6.64911in" y="4.0298in" w="1.20955in" h="0.138889in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$sexo</Span>
+    </Object-text>
+    <Object-text x="6.22585in" y="4.03314in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Sexo:</Span>
+    </Object-text>
+    <Object-text x="0.753442in" y="4.46032in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">CURP:</Span>
+    </Object-text>
+    <Object-text x="1.30185in" y="4.45613in" w="2.18843in" h="0.186396in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$curp</Span>
+    </Object-text>
+    <Object-text x="3.46105in" y="4.46206in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">RFC:</Span>
+    </Object-text>
+    <Object-text x="3.80426in" y="4.45433in" w="2.80487in" h="0.240767in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$rfc</Span>
+    </Object-text>
+    <Object-text x="0.699097in" y="4.71278in" w="1.81081in" h="0.338475in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Ocupaci&#xF3;n: ( Empleo, Profesi&#xF3;n o actividad primordial)</Span>
+    </Object-text>
+    <Object-text x="4.89161in" y="4.73167in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Firma Electr&#xF3;nica Avanzada</Span>
+    </Object-text>
+    <Object-text x="2.58247in" y="4.78166in" w="2.8371in" h="0.305158in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$ocupacion</Span>
+    </Object-text>
+    <Object-text x="5.97455in" y="6.54102in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1"/>
+    </Object-text>
+    <Object-text x="4.11857in" y="5.92454in" w="3.57016in" h="0.430639in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Otro: &#x2610;<NL/>Especificar: ________________            </Span>
+    </Object-text>
+    <Object-text x="0.789801in" y="6.47665in" w="0.611111in" h="0.212915in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Nombre:</Span>
+    </Object-text>
+    <Object-text x="0.706498in" y="2.5025in" w="2.184in" h="0.572248in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Domicilio:<NL/>(Calle, Num. Ext,  Int, Col, Deleg. o Mpio, C.P. Edo.,Pa&#xED;s)</Span>
+    </Object-text>
+    <Object-text x="3.24037in" y="2.61246in" w="4.54832in" h="0.318484in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$direccion_completa</Span>
+    </Object-text>
+    <Object-text x="6.32109in" y="2.17595in" w="1.21103in" h="0.277778in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">No. Identificaci&#xF3;n Oficial:</Span>
+    </Object-text>
+    <Object-text x="3.40883in" y="3.03091in" w="0.722222in" h="0.249774in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Celular:</Span>
+    </Object-text>
+    <Object-text x="3.97863in" y="3.03897in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$telefono_fijo</Span>
+    </Object-text>
+    <Object-text x="0.732034in" y="3.02694in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Tel&#xE9;fono Casa:</Span>
+    </Object-text>
+    <Object-line x="0.73186in" y="2.04386in" dx="-0.0105568in" dy="3.12848in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7.98992in" y="2.09257in" dx="-0.00129784in" dy="3.07145in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.717971in" y="5.16013in" dx="7.26398in" dy="0in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.770576in" y="5.37754in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0xffffffff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">OTRA INFORMACI&#xD3;N DEL ACREDITADO</Span>
+    </Object-text>
+    <Object-text x="0.720211in" y="5.67053in" w="2.61346in" h="0.176009in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">Transaccionalidad esperada:</Span>
+    </Object-text>
+    <Object-text x="4.09522in" y="5.67487in" w="2.47392in" h="0.138889in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="10" font_weight="Bold" font_italic="False" line_spacing="1">$$monto_max_formato</Span>
+    </Object-text>
+    <Object-text x="0.721303in" y="5.81832in" w="2.50907in" h="0.321445in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Monto del pago mensual que se encuentra en condiciones de realizar.</Span>
+    </Object-text>
+    <Object-line x="0.717971in" y="6.77124in" dx="7.26398in" dy="0in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.733246in" y="5.58497in" dx="0in" dy="1.18456in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.717971in" y="5.16013in" dx="7.26398in" dy="0in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7.9869in" y="5.59165in" dx="0in" dy="1.18456in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="0.731299in" y="6.87301in" w="7.25732in" h="0.319882in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.748169in" y="6.96023in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0xffffffff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">AUTORIZACI&#xD3;N PARA SOLICITAR REPORTES DE CR&#xC9;DITO</Span>
+    </Object-text>
+    <Object-line x="0.734632in" y="9.85088in" dx="7.26398in" dy="0in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.727967in" y="7.19271in" dx="-0.00166605in" dy="3.14551in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7.98723in" y="7.10012in" dx="-0.0033321in" dy="3.24547in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.734632in" y="10.3324in" dx="7.26398in" dy="0in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.881481in" y="7.28512in" w="7in" h="0.53189in" justify="Left" valign="Bottom" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">                expresamente a FINANCIERA SUSTENTABLE DE M&#xC9;XICO, S.A. DE C.V.,S.F.P. (en adelante FINANCIERA<NL/>SUSTENTABLE) para que por conducto de sus funcionarios facultados, lleve  a  cabo investigaciones sobre  mi<NL/>comportamiento crediticio o el de la empresa que represento en Trans Union de  M&#xE9;xico , S.A. SIC  y/o Dun  &amp; <NL/>Bradstreet , S.A. SIC.</Span>
+    </Object-text>
+    <Object-text x="0.881481in" y="7.85221in" w="7in" h="0.944994in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">              que conozco la naturaleza y alcance de (i) las Sociedades  de  Informaci&#xF3;n  Crediticia  (SIC)  (ii) de la <NL/>informaci&#xF3;n contenida en los reportes de cr&#xE9;dito y en los reportes de cr&#xE9;dito especiales, (iii)  que conozco  la<NL/>naturaleza y alcance de la informaci&#xF3;n que se solicitar&#xE1;, del uso que  FINANCIERA  SUSTENTABLE DE M&#xC9;XICO,<NL/>S.A. DE C.V. S.F.P., har&#xE1; de tal informaci&#xF3;n y de que &#xE9;sta podr&#xE1; realizar consultas peri&#xF3;dicas sobre mi historial<NL/>o el de la empresa que represento, consintiend  que esta autorizaci&#xF3;n se encuentre  vigente  por  un  per&#xED;odo<NL/>de 3 a&#xF1;os contados a partir de su expedici&#xF3;n y  en todo caso durante el tiempo que se  mantenga la relaci&#xF3;n<NL/>jur&#xED;dica.</Span>
+    </Object-text>
+    <Object-text x="0.888482in" y="8.88032in" w="7.33063in" h="0.504913in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">En caso de que la solicitante sea una Persona Moral, declaro bajo protesta de decir verdad Ser Representante<NL/>Legal de la empresa mencionada en esta autorizaci&#xF3;n;  manifestando que a la  fecha de firma de la  presente<NL/>autorizaci&#xF3;n los poderes no me han sido revocados, limitados, ni modificados en forma alguna.</Span>
+    </Object-text>
+    <Object-text x="0.886434in" y="7.26027in" w="0.653in" h="0.15283in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">Autorizo</Span>
+    </Object-text>
+    <Object-text x="0.877881in" y="7.85612in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">Declaro </Span>
+    </Object-text>
+    <Object-text x="0.871248in" y="9.33858in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">                                              que  este  documento  quede  bajo  custodia  de  FINANCIERA  SUSTENTABLE DE <NL/>M&#xC9;XICO, S.A. DE  C.V.  S.F.P,  para  efectos de control  y  cumplimiento  del  articulo  29  de la ley refular a las<NL/>Sociedades de Informaci&#xF3;n Crediticia.</Span>
+    </Object-text>
+    <Object-text x="0.871071in" y="9.34413in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">Estoy conciente y acepto</Span>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>
