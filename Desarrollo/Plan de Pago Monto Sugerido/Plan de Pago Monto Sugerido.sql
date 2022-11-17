@@ -455,8 +455,8 @@ LANGUAGE plpgsql;
 
 
 
-SELECT of_db_drop_type('ofx_pagare_monto_sugerido','CASCADE');
-CREATE TYPE ofx_pagare_monto_sugerido AS (
+SELECT of_db_drop_type('ofx_pagare_monto_sugerido_contrato','CASCADE');
+CREATE TYPE ofx_pagare_monto_sugerido_contrato AS (
  suc_idsucursal      text,    
  nom_sucursal_matriz text,    
  nom_sucursal        text,    
@@ -535,16 +535,40 @@ CREATE TYPE ofx_pagare_monto_sugerido AS (
  direccion_asoc      text,    
  fe_operacion        date,    
  comision_ape        text,
- __params            text
+ __params            text,
+
+  -- DATA OF CONTRACT
+  -- montoentregado   saldo
+  -- montoletra       saldo
+  referencia_bancaria text,   -- deudores
+  saldo_insoluto      text,
+  ruta                text,   -- 
+  cta_2001            text,
+  ife                 text,
+  telefono_fijo       text,
+  celular             text,
+  correo              text,
+  fe_nacimiento       text,
+  email               text,
+  edad                text,
+  sexo                text,
+  curp                text,
+  ocupacion           text,
+
+  vin                 text,
+  motor               text,
+  marca               text,
+  modelo              text,
+  color               text
 );
 -- PAGARE
-CREATE OR REPLACE FUNCTION ofx_pagare_monto_sugerido()
- RETURNS SETOF ofx_pagare_monto_sugerido
+CREATE OR REPLACE FUNCTION ofx_pagare_monto_sugerido_contrato()
+ RETURNS SETOF ofx_pagare_monto_sugerido_contrato
 AS $$
 
 DECLARE
   -- Variables
-  t                       ofx_pagare_monto_sugerido%ROWTYPE;
+  t                       ofx_pagare_monto_sugerido_contrato%ROWTYPE;
   ra                      RECORD; --> Datos del asociado.
   rpp                     RECORD; --> Datos de las amortizaciones.
   rpp2                     RECORD; --> Datos de las amortizaciones.
@@ -717,6 +741,26 @@ BEGIN
   p_fechaPA         := of_si(trim(of_ofx_get('fechaprimerabono')) = '',t.fech_apertura::TEXT,of_ofx_get('fechaprimerabono'))::DATE;
   p_fecha           := of_param_sesion_get('global','fecha');
 --  _fecha_oper       := of_param_sesion_get('global','fecha');
+
+  t.referencia_bancaria := '';
+  t.ruta                := '';
+  t.cta_2001            := '';
+  t.ife                 := '';
+  t.telefono_fijo       := '';
+  t.celular             := '';
+  t.correo              := '';
+  t.fe_nacimiento       := '';
+  t.edad                := '';
+  t.sexo                := '';
+  t.curp                := '';
+  t.rfc                 := '';
+  t.ocupacion           := '';
+  t.vin                 := '';
+  t.motor               := '';
+  t.marca               := '';
+  t.modelo              := '';
+  t.color               := '';
+  t.email               := '';
 
   -- Datos del asociado.
   SELECT INTO ra idsucdir,iddir
@@ -963,7 +1007,55 @@ BEGIN
       --t.comision_ape := _comision_ape::TEXT::MONEY::TEXT;
     END IF;
 
-    PERFORM of_ofx_notice('info', t.label_total |+ ' ' |+ t.plazo |+ '  ' |+ t.totabono |+ ' - ' |+ t.totio |+ ' - ' |+ t.totiva |+ ' - ' |+ t.totpago |+ ' > i=' |+ i );
+    --PERFORM of_ofx_notice('info', t.label_total |+ ' ' |+ t.plazo |+ '  ' |+ t.totabono |+ ' - ' |+ t.totio |+ ' - ' |+ t.totiva |+ ' - ' |+ t.totpago |+ ' > i=' |+ i );
+    -- Get data of contract with the value of idsucaux-idproducto-idauxiliar
+    SELECT INTO t.referencia_bancaria, t.telefono_fijo, t.email, t.celular, t.sexo, t.ife, t.curp, t.ocupacion, t.fe_nacimiento, t.ruta, t.edad
+      (of_rellena(d.kauxiliar :: TEXT, 9, '0', 2) || of_dv_gen(d.kauxiliar :: TEXT)),
+      telefono,
+      email,
+      telefono2,
+      CASE WHEN sexo = 0 THEN 'Masculino' WHEN sexo = 1 THEN 'Femenino' END,
+      ife,
+      curp_rfc,
+      (SELECT ocup.descripcion FROM ocupaciones AS ocup WHERE ocup.idocupacion = directorio.idocupacion),
+      fechanacimiento,
+      r.nombre,
+      DATE_PART('year', AGE(now(), fechanacimiento))
+    FROM
+      deudores AS d
+      INNER JOIN asociados AS aso USING(idsucursal, idrol, idasociado)
+      INNER JOIN directorio USING(idsucdir, iddir)
+      INNER JOIN calles USING(idcalle)
+      INNER JOIN colonias USING(idcolonia)
+      INNER JOIN municipios USING(idmunicipio)
+      INNER JOIN estados USING(idestado)
+      INNER JOIN roles AS r USING(idrol)
+    WHERE (idsucaux, idproducto, idauxiliar)=(t.idsucaux::INTEGER, t.idproducto::INTEGER, t.idauxiliar::INTEGER);
+
+    SELECT 
+      INTO 
+        t.cta_2001
+        idsucauxref || '-' || idproductoref || '-' || idauxiliarref 
+    FROM 
+      auxiliares_ref
+    WHERE 
+      (idsucaux, idproducto, idauxiliar)=(t.idsucaux::INTEGER, t.idproducto::INTEGER, t.idauxiliar::INTEGER);
+
+    -- SELECT
+    --   INTO
+    --     t.vin, t.motor, t.marca, t.modelo, t.color
+    --     vin, motor, marca, modelo, color
+    -- FROM
+    --   unidades
+    --   INNER JOIN ofx_multicampos_sustentable.auxiliar_masdatos USING (vin)
+    -- WHERE
+    --   kauxiliar = (
+    --     SELECT 
+    --       kauxiliar 
+    --     FROM 
+    --       deudores 
+    --     WHERE 
+    --       (idsucaux, idproducto, idauxiliar)=(t.idsucaux::INTEGER, t.idproducto::INTEGER, t.idauxiliar::INTEGER));
         
     IF (_infinito = _maxidpago) THEN -- Mostrar el resultado si se ha llenado la hoja
       RETURN NEXT t;
