@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de página completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-text x="0.39789in" y="0.349702in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">P  A  G  A  R  E</Span>
+    </Object-text>
+    <Object-box x="0.432385in" y="3.20625in" w="7.64752in" h="0.389996in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x999999ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.290413in" y="3.23143in" w="0.564in" h="0.416952in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">NO. <NL/>DE <NL/>PAGO</Span>
+    </Object-text>
+    <Object-text x="0.697397in" y="3.24736in" w="0.708012in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">FECHA DE<NL/>PAGO</Span>
+    </Object-text>
+    <Object-text x="1.44275in" y="3.22399in" w="0.703402in" h="0.451668in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">SALDO<NL/>INSOLUTO</Span>
+    </Object-text>
+    <Object-text x="2.15667in" y="3.23684in" w="0.69844in" h="0.306993in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">INTERESES<NL/>ORDINARIOS</Span>
+    </Object-text>
+    <Object-text x="2.84786in" y="3.23189in" w="0.671594in" h="0.330429in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">IVA DE LOS<NL/>INTERESES<NL/>(EN SU CASO)</Span>
+    </Object-text>
+    <Object-line x="0.429416in" y="3.19753in" dx="0.000186596in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="7.07731in" y="3.25899in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">MONTO A<NL/>PAGAR</Span>
+    </Object-text>
+    <Object-line x="0.730336in" y="3.19753in" dx="0.00672377in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="1.41291in" y="3.20277in" dx="2.02373e-15in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="2.15073in" y="3.19925in" dx="2.02373e-15in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="2.83755in" y="3.19925in" dx="0.00122765in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="4.2in" y="3.19925in" dx="0.00122765in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="5.31995in" y="3.20305in" dx="-0.00129527in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="6.24423in" y="3.20447in" dx="0.0273643in" dy="7.14395in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7.15164in" y="3.20447in" dx="-0.0175029in" dy="7.14398in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="8.07755in" y="3.20447in" dx="0.00174566in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="3.71725in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="3.82899in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.33014in" y="3.60733in" w="0.350026in" h="7.31605in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$idserie</Span>
+    </Object-text>
+    <Object-line x="0.422208in" y="10.3427in" dx="7.655in" dy="-1.33498e-15in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.342334in" y="2.93767in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">TABLA DE AMORTIZACION</Span>
+    </Object-text>
+    <Object-text x="0.671934in" y="3.60733in" w="0.676in" h="6.80506in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$venc</Span>
+    </Object-text>
+    <Object-text x="1.23682in" y="3.6077in" w="0.863in" h="6.79834in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$saldo</Span>
+    </Object-text>
+    <Object-text x="1.89331in" y="3.60317in" w="0.887502in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$iopp</Span>
+    </Object-text>
+    <Object-text x="7.14376in" y="3.60698in" w="0.88458in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$pago</Span>
+    </Object-text>
+    <Object-text x="0.336631in" y="10.5027in" w="7.75526in" h="0.138889in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Página 1</Span>
+    </Object-text>
+    <Object-line x="3.50005in" y="3.19925in" dx="0.00122765in" dy="7.144in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="3.55549in" y="3.25899in" w="0.631605in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">CAPITAL </Span>
+    </Object-text>
+    <Object-text x="3.2715in" y="3.61446in" w="0.863in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$abono</Span>
+    </Object-text>
+    <Object-text x="4.35186in" y="3.60698in" w="0.863in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$subtotal_accesoriosiva</Span>
+    </Object-text>
+    <Object-text x="4.22958in" y="3.23815in" w="1.08113in" h="0.437499in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">ACCESORIOS <NL/>GPS Y SEGURO<NL/>DE DAÑOS</Span>
+    </Object-text>
+    <Object-text x="5.31714in" y="3.60698in" w="0.863in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$subtotal_ivaaccesorios</Span>
+    </Object-text>
+    <Object-text x="5.3898in" y="3.24046in" w="0.858404in" h="0.435197in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">IVA DEL <NL/>GPS Y SEGURO <NL/>DE DAÑOS</Span>
+    </Object-text>
+    <Object-text x="6.23627in" y="3.60698in" w="0.863in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$seguro_vida</Span>
+    </Object-text>
+    <Object-text x="6.27869in" y="3.2372in" w="0.858404in" h="0.345403in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Regular" font_italic="False" line_spacing="1">ACCESORIOS <NL/>SEGURO DE VIDA</Span>
+    </Object-text>
+    <Object-line x="0.424759in" y="3.93947in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.05121in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="4.15822in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.26996in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.3776in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="4.48808in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.59982in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="4.70683in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.81857in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="4.92968in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="5.04016in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="5.1519in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="5.25891in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="5.37065in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="5.48176in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="5.59224in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="5.70398in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="5.81099in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="5.92273in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="6.03384in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="6.14432in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="6.25606in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="6.36307in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="6.47481in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="6.57897in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="6.68945in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="6.80119in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="6.9082in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.01994in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.13453in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="7.24501in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.35675in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="7.46376in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.5755in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.68662in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="7.7971in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="7.90884in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="8.01585in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="8.12759in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="8.2346in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="8.34634in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="8.45335in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="8.56509in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="8.6762in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="8.78668in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="8.89842in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="9.00543in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="9.11717in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="9.22765in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="9.33939in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="9.4464in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="9.55814in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="9.66925in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="9.77973in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="9.89147in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424759in" y="9.99848in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="10.1102in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.424661in" y="10.2213in" dx="7.65516in" dy="-1.33501e-15in" line_width="0.00694445in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.170529in" y="0.682469in" w="8.19144in" h="2.22307in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Por este pagaré (el “Pagaré”),                                                                                                                      con número de cliente<NL/>y crédito                              prometo pagar incondicionalmente a la orden de<NL/>(el                       ), en sus oficinas ubicadas en Insurgentes Sur 1391, Local A12, Col. Insurgentes Mixcoac, C.P. 03920, Alcaldía Benito Juárez,<NL/>CDMX, la suma principal de:</Span>
+    </Object-text>
+    <Object-text x="2.07094in" y="0.690555in" w="4.01985in" h="0.16639in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-text x="7.33199in" y="0.685925in" w="1.02406in" h="0.16639in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">$idsucursal-$idrol-$idasociado</Span>
+    </Object-text>
+    <Object-text x="0.695027in" y="0.820329in" w="1.02406in" h="0.16639in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">$idsucaux-$idproducto-$idauxiliar</Span>
+    </Object-text>
+    <Object-text x="4.49561in" y="0.846949in" w="3.89046in" h="0.16639in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="5" font_weight="Bold" font_italic="False" line_spacing="1">FINANCIERA SUSTENTABLE DE MÉXICO, S.A. DE C.V., SOCIEDAD FINANCIERA POPULAR</Span>
+    </Object-text>
+    <Object-text x="0.261589in" y="1.24291in" w="7.97681in" h="0.152002in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Bold" font_italic="False" line_spacing="1">$montoentregado ($monto_letra)</Span>
+    </Object-text>
+    <Object-text x="0.361694in" y="0.938385in" w="1.02406in" h="0.16639in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">"Beneficiario"</Span>
+    </Object-text>
+    <Object-text x="3.43631in" y="1.43995in" w="0.596818in" h="0.310054in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Bold" font_italic="False" line_spacing="1">$tasaio%</Span>
+    </Object-text>
+    <Object-text x="4.60529in" y="1.56189in" w="1.317in" h="0.166439in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="6" font_weight="Bold" font_italic="False" line_spacing="1">$plazo ($plazo_letras)</Span>
+    </Object-text>
+    <Object-text x="2.59634in" y="3.60672in" w="0.863in" h="6.44792in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="0.96">$iva</Span>
+    </Object-text>
+    <Object-text x="0.548316in" y="1.98773in" w="3.08347in" h="0.749055in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">El Suscriptor</Span>
+    </Object-text>
+    <Object-text x="0.108in" y="2.709in" w="3.811in" h="0.379417in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-line x="0.753625in" y="2.70284in" dx="2.621in" dy="-4.57087e-16in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="4.77054in" y="1.97732in" w="3.08347in" h="0.749055in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">El Obligado Solidario o Aval</Span>
+    </Object-text>
+    <Object-text x="4.58303in" y="2.70881in" w="3.41209in" h="0.279834in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">$aval_paterno_1 $aval_materno_1 $aval_nombre_1</Span>
+    </Object-text>
+    <Object-line x="4.97585in" y="2.70284in" dx="2.621in" dy="-4.57087e-16in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.170529in" y="1.42052in" w="8.19144in" h="1.21651in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">más los intereses ordinarios que se devenguen a razón del              anual y el sobre saldos insolutos, así como el correspondiente  Impuesto  al<NL/>Valor Agregado (“IVA”) sobre los intereses, que en su caso se causen, mediante                                     amortizaciones consecutivas. y por los <NL/>montos que se incluyen en la siguiente tabla de amortización. Adicionalmente, el Suscriptor promete pagar incondicionalmente a la orden del<NL/> Beneficiario, las cantidades que se desglosan en la tabla de amortización por concepto de “ACCESORIOS” y su respectivo IVA., según resulta <NL/>aplicable.</Span>
+    </Object-text>
+    <Object-text x="0.429091in" y="10.3462in" w="0in" h="0in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">$label_total</Span>
+    </Object-text>
+    <Object-text x="1.40605in" y="10.3563in" w="0.749723in" h="0.111111in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">$totabono</Span>
+    </Object-text>
+    <Object-text x="2.16077in" y="10.3549in" w="0.66768in" h="0.111111in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">$totio</Span>
+    </Object-text>
+    <Object-text x="2.85052in" y="10.3499in" w="0.654758in" h="0.111111in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">$totiva</Span>
+    </Object-text>
+    <Object-text x="7.01898in" y="10.3504in" w="0.909664in" h="0.111111in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">$totpago</Span>
+    </Object-text>
+    <Object-text x="4.03508in" y="10.3482in" w="0in" h="0in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Regular" font_italic="False" line_spacing="1">$subtotal_accesorios_iva</Span>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>
